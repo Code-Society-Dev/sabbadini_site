@@ -1,0 +1,161 @@
+.navbar-button-toggle-content{
+  margin-top: 192px;
+  width: 140px;
+  position: absolute;
+  left: -8px;
+}
+
+.navbar-container-icon-list-img--desktop{
+  display: none;
+}
+
+.navbar-container-icon-list-img--mobile{
+  display: block;
+  position: absolute;
+  left: 35%;
+  top: 20%;
+  width: 100px;
+  height: 40px;
+}
+
+.navbar-button-toggle--icon{
+  font-size: 25px;
+  color: #FCF8FF;
+}
+
+.navbar-button-toggle--a{
+  font-size: 23px !important;
+  color: #FCF8FF;
+  font-family: var(--tipografiaHeader);
+}
+
+.navbar-container-icon-redes{
+  display: none;
+}
+
+
+@media (min-width: 375px) {
+  .navbar-container-icon-list-img--mobile{
+    left: 36%;
+    width: 105px;
+    height: 45px;
+  }
+
+  .navbar-button-toggle--icon{
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 425px) {
+  .navbar-container-icon-list-img--mobile{
+    left: 37%;
+    width: 110px;
+    height: 50px;
+  }
+
+  .navbar-button-toggle--icon{
+    font-size: 29px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .navbar-content-div{
+    display: flex !important;
+  }
+
+
+  .navbar-container-icon-list{
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  .navbar-content-div-list{
+    gap: 25%;
+  }
+
+.navbar-container-icon-list-img--mobile{
+  display: none;
+}
+
+  .navbar-container-icon-list-img--desktop{
+    display: block;
+    width: 145px;
+    height: 50px;
+  }
+
+  .navbar-content-div--list-desktop{
+    gap: 2em;
+  }
+
+  .navbar-content-div--a-desktop{
+color: #FCF8FF;
+font-size: 13px !important;
+font-family: var(--tipografiaHeader);
+  }
+
+  .navbar-content-div--icon{
+    color: #FCF8FF;
+    font-size: 13px;
+  }
+
+  .navbar-container-icon-redes{
+    display: flex;
+    justify-content: space-around;
+    color: #FCF8FF;
+    font-size: 13px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+ 
+ 
+
+  .navbar-container-icon-list-img--desktop{
+    display: block;
+    width: 150px;
+    height: 55px;
+  }
+
+  .navbar-content-div--list-desktop{
+    gap: 2em;
+  }
+
+  .navbar-content-div--a-desktop{
+font-size: 20px !important;
+  }
+
+  .navbar-content-div--icon{
+    font-size: 20px;
+  }
+
+  .navbar-container-icon-redes{
+    font-size: 20px;
+  }
+
+}
+
+@media (min-width: 1336px) {
+ 
+  .navbar-container-icon-list-img--desktop{
+    width: 160px;
+    height: 60px;
+  }
+
+  .navbar-content-div--list-desktop{
+    gap: 3em;
+  }
+
+  .navbar-content-div--a-desktop{
+font-size: 25px !important;
+  }
+
+  .navbar-content-div--icon{
+    font-size: 25px;
+  }
+
+  .navbar-container-icon-redes{
+    font-size: 25px;
+  }
+}
