@@ -4,10 +4,16 @@
 
 :root{
   --tipografiaHeader: 'Nunito', sans-serif;
+  --colorLetrasHeader: #FCF8FF;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body { 
+  min-height: 100vh;
+  background-color: #e5e7eb;
 }

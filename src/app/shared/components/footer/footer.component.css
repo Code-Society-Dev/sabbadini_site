@@ -1,4 +1,20 @@
-footer{
+
+.footer-contenedor--div-span{
+  color: var(--colorLetrasHeader);
+  font-family: var(--tipografiaHeader);
+}
+
+.footer-contenedor--ul-li{
+  color: var(--colorLetrasHeader);
+font-family: var(--tipografiaHeader);
+}
+
+
+
+
+@media (min-width: 1024px) {
+ footer{
   position: absolute;
-   bottom: 0;
+  bottom: 0%;
+ }
 }

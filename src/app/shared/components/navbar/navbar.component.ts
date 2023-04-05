@@ -16,4 +16,7 @@ export class NavbarComponent {
     this.toggled.emit(this.isToggled);
   }
  
+  
+  
+
 }
