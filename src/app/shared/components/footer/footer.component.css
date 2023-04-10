@@ -10,11 +10,3 @@ font-family: var(--tipografiaHeader);
 }
 
 
-
-
-@media (min-width: 1024px) {
- footer{
-  position: absolute;
-  bottom: 0%;
- }
-}

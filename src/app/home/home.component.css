@@ -1,0 +1,124 @@
+.home-container{
+  height: 100vh;
+  background: #0081CF;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.home-container-card-presentacion{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 3em;
+}
+
+.home-container-container{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.home-card {
+  --bg: #e8e8e8;
+  --contrast: #e2e0e0;
+  --grey: #93a1a1;
+  position: relative;
+  padding: 9px;
+  background-color: var(--bg);
+  border-radius: 50%;
+}
+
+.home-card-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  filter: opacity(10%) contrast(105%);
+}
+
+.home-card-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 190px;
+  height: 254px;
+  background-color: var(--contrast);
+  border-radius: 50%;
+}
+
+
+
+.home-card--img{
+  width: 250px;
+  height: 250px;
+}
+
+.home-container-container--parrafo{
+color: var(--colorLetrasHeader);
+  font-family: var(--tipografiaGeneral);
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.home-container-container--titulo{
+color: var(--colorLetrasHeader);
+  font-family: var(--tipografiaGeneral);
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.home-container-container2--parrafo{
+  color: var(--colorLetrasHeader);
+  font-family: var(--tipografiaGeneral);
+  font-size: 20px;
+}
+
+.home-container-container2--subtitulo{
+  color: var(--colorLetrasHeader);
+  font-family: var(--tipografiaGeneral);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.home-container-titulo-subtitulo{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+@media (min-width: 1024px) {
+  .home-container-card-presentacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10em;
+    gap: 10em;
+  }
+
+  .home-container-container--parrafo{
+font-size: 30px;
+font-weight: 600;
+    }
+
+    .home-container-container--titulo{
+font-size: 30px;
+font-weight: 600;
+    }
+
+    .home-container-container2--subtitulo{
+font-size: 30px;
+font-weight: 600;
+    }
+
+}
