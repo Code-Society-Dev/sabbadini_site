@@ -4,15 +4,15 @@ import { SobreMiComponent } from './sobre-mi.component';
 
 
 
-@NgModule({
+NgModule({
   declarations: [
-    SobreMiComponent 
+    SobreMiComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    SobreMiComponent 
+    SobreMiComponent
   ]
 })
 export class SobreMiModule { }
