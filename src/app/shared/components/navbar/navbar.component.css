@@ -3,6 +3,7 @@
   width: 140px;
   position: absolute;
   left: -8px;
+  z-index: 2;
 }
 
 .navbar-container-icon-list-img--desktop{
@@ -72,7 +73,7 @@
     align-items: center !important;
   }
 
-  
+
 
 .navbar-container-icon-list-img--mobile{
   display: none;
@@ -86,7 +87,7 @@
     height: 50px;
   }
 
-  
+
 
   .navbar-content-div--a-desktop{
 color: var(--colorLetrasHeader);
@@ -107,7 +108,7 @@ font-family: var(--tipografiaHeader);
     font-size: 13px;
   }
 
-  
+
 }
 
 

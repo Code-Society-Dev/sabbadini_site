@@ -1,17 +1,20 @@
-<div *ngFor="let skills of data">
-  <div class="card">
-    <div class="img-container">
-        <div class="img">
-          <img [src]="skills.imagen"/>
-        </div>
-        <div class="description card">
-            <span class="title">
-              {{skills.nombre}}
-            </span>
-        </div>
+<div class="informacion-container-card">
+  <div *ngFor="let skills of data">
+    <div class="informacion-card">
+      <div class="informacion-img-container">
+          <div class="informacion-img">
+            <img [src]="skills.imagen"/>
+          </div>
+          <div class="informacion-description informacion-card">
+              <span class="informacion-title">
+                {{skills.nombre}}
+              </span>
+          </div>
+      </div>
     </div>
   </div>
 </div>
+
 
 
 
