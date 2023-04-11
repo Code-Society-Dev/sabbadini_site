@@ -1,0 +1,25 @@
+<div *ngFor="let skills of data">
+  <div class="card">
+    <div class="img-container">
+        <div class="img">
+          <img [src]="skills.imagen"/>
+        </div>
+        <div class="description card">
+            <span class="title">
+              {{skills.nombre}}
+            </span>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- div class="card">
+  <div class="card-header">{{skills.nombre}}</div>
+  <div class="card-body">
+    <img [src]="skills.imagen"/>
+  </div>
+</div>
+ -->

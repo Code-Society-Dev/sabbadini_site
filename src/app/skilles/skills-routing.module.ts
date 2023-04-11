@@ -4,9 +4,9 @@ import { SkillsComponent } from './skills.component';
 
 const routes: Routes = [
   {
-    path: 'skills',
-    component: SkillsComponent,
-  },
+    path:"",
+    component: SkillsComponent
+  }
 ];
 
 @NgModule({
