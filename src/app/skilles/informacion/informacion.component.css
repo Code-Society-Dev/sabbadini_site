@@ -62,3 +62,15 @@
 .informacion-title {
   color: aliceblue;
 }
+
+.informacion-container-titulo{
+  font-family: var(--tipografiaGeneral);
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.informacion-container-titulo--nombre{
+  margin-top: 0.1em;
+  font-family: var(--tipografiaGeneral);
+  font-size: 20px;
+}
