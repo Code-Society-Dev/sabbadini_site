@@ -1,4 +1,4 @@
-<div class="informacion-container-card">
+<!-- <div class="informacion-container-card">
   <div *ngFor="let skills of data">
     <div class="informacion-card">
       <div class="informacion-img-container">
@@ -13,16 +13,135 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
+<div class="informacion-container container">
+  <div class="flex flex-column max-w-sm w-full lg:max-w-full lg:flex my-2">
+    <div class="flex flex-col border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 mx-3 leading-normal">
+        <div class="text-gray-900 font-bold text-xl mb-2">
+          <h2>
+            HTML
+          </h2>
+        </div>
+      <div>
+        <div class="flex flex-row flex-wrap gap-5">
+          <div class="flex flex-cols-2 flex-wrap items-center" *ngFor="let html of htmldata">
+            <div class="flex flex-col flex-wrap">
+              <div>
+                <img class="w-10 h-10 rounded-full mr-4" [src]="html.imagen" alt="Avatar of Jonathan Reinink">
+              </div>
+              <div class="text-sm">
+                <p class="text-gray-900 leading-none">{{html.nombre}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="flex flex-row max-w-sm w-full lg:max-w-full lg:flex my-2">
+    <div class="flex flex-col border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 mx-3 leading-normal">
+      <div class="mb-8">
+        <div class="text-gray-900 font-bold text-xl mb-2">
+          <h2>
+            CSS
+          </h2>
+        </div>
+      </div>
+      <div>
+        <div class="flex flex-row flex-wrap gap-5">
+          <div class="flex items-center" *ngFor="let css of cssdata">
+            <div class="flex flex-col">
+              <div>
+                <img class="w-10 h-10 rounded-full mr-4" [src]="css.imagen" alt="Avatar of Jonathan Reinink">
+              </div>
+              <div class="text-sm">
+                <p class="text-gray-900 leading-none">{{css.nombre}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="flex flex-row max-w-sm w-full lg:max-w-full lg:flex my-2">
+    <div class="flex flex-col border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 mx-3 leading-normal">
+      <div class="mb-8">
+        <div class="text-gray-900 font-bold text-xl mb-2">
+          <h2>
+            Javascript
+          </h2>
+        </div>
+      </div>
+      <div>
+        <div class="flex flex-row flex-wrap gap-5">
+        <div class="flex flex-row" *ngFor="let javascript of javascriptdata">
+            <div class="flex flex-col">
+              <div>
+                <img class="w-10 h-10 rounded-full mr-4" [src]="javascript.imagen" alt="Avatar of Jonathan Reinink">
+              </div>
+              <div class="text-sm">
+                <p class="text-gray-900 leading-none">{{javascript.nombre}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="flex max-w-sm w-full lg:max-w-full lg:flex my-2">
+    <div class="flex flex-col border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 mx-3 leading-normal">
+        <div class="text-gray-900 font-bold text-xl mb-2">
+          <h2>
+            Backend
+          </h2>
+      </div>
+      <div>
+        <div class="flex flex-row flex-wrap gap-5">
+          <div class="flex flex-row items-center" *ngFor="let backend of backenddata">
+            <div class="flex flex-col">
+              <div>
+                <img class="w-10 h-10 rounded-full mr-4" [src]="backend.imagen" alt="Avatar of Jonathan Reinink">
+              </div>
+              <div class="text-sm">
+                <p class="text-gray-900 leading-none">{{backend.nombre}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-
-<!-- div class="card">
-  <div class="card-header">{{skills.nombre}}</div>
-  <div class="card-body">
-    <img [src]="skills.imagen"/>
+  <div class="flex max-w-sm w-full lg:max-w-full lg:flex my-2">
+    <div class="flex flex-col border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 mx-3 leading-normal">
+        <div class="text-gray-900 font-bold text-xl mb-2">
+          <h2>
+            Otros
+          </h2>
+      </div>
+      <div>
+        <div class="flex flex-row flex-wrap gap-5">
+          <div class="flex flex-row items-center" *ngFor="let otros of otrosdata">
+            <div class="flex flex-col">
+              <div>
+                <img class="w-10 h-10 rounded-full mr-4" [src]="otros.imagen" alt="Avatar of Jonathan Reinink">
+              </div>
+              <div class="text-sm">
+                <p class="text-gray-900 leading-none">{{otros.nombre}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
- -->
+
+
+
+
+
+
