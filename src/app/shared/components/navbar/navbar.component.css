@@ -80,9 +80,10 @@
 }
 
   .navbar-container-icon-list-img--desktop{
-    display: block;
-    position: relative;
-    right: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 3em;
     width: 150px;
     height: 50px;
   }

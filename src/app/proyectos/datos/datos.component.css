@@ -1,0 +1,13 @@
+.proyectos-datos-card-container{
+  background-color: gray;
+}
+
+.proyectos-datos-card-container-titulo--titulo{
+  font-family: var(--tipografiaHeader);
+  color: aliceblue;
+}
+
+.proyectos-datos-card-container-titulo--descripcion{
+  font-family: var(--tipografiaHeader);
+  color: aliceblue;
+}

@@ -4,95 +4,148 @@
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
         <!-- Mobile menu button-->
 
-        <button type="button"  [class.active]="isToggled" (click)="toggle()"  class="navbar-button-toggle inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+        <button
+          type="button"
+          [class.active]="isToggled"
+          (click)="toggle()"
+          class="navbar-button-toggle inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+        >
           <span class="sr-only">Open main menu</span>
           <!--
             Icon when menu is closed.
             Menu open: "hidden", Menu closed: "block"
           -->
-          <i class="navbar-button-toggle--icon fa-solid fa-bars" *ngIf="!isToggled"></i>
+          <i
+            class="navbar-button-toggle--icon fa-solid fa-bars"
+            *ngIf="!isToggled"
+          ></i>
 
           <!--
             Icon when menu is open.
             Menu open: "block", Menu closed: "hidden"
           -->
-          <i class="navbar-button-toggle--icon fa-solid fa-x" *ngIf="isToggled"></i>
-
-
+          <i
+            class="navbar-button-toggle--icon fa-solid fa-x"
+            *ngIf="isToggled"
+          ></i>
         </button>
-        <div *ngIf="isToggled" id="mobile-menu" class="navbar-button-toggle-content bg-stone-300">
+        <div
+          *ngIf="isToggled"
+          id="mobile-menu"
+          class="navbar-button-toggle-content bg-stone-300"
+        >
           <div class="px-1 py-1">
-            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <a  routerLink="skills" routerLinkActive="active" class="navbar-button-toggle--a hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Skill</a>
+           
+            <a
+              routerLink="skills"
+              routerLinkActive="active"
+              class="navbar-button-toggle--a hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              >Skill</a
+            >
 
-            <a routerLink="proyectos" routerLinkActive="active"class="navbar-button-toggle--a hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Proyectos</a>
+            <a
+              routerLink="proyectos"
+              routerLinkActive="active"
+              class="navbar-button-toggle--a hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              >Proyectos</a
+            >
 
-            <a routerLink="cursos" routerLinkActive="active" class="navbar-button-toggle--a hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Cursos</a>
+            <a
+              routerLink="cursos"
+              routerLinkActive="active"
+              class="navbar-button-toggle--a hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              >Cursos</a
+            >
+
+            <a
+              routerLink="sobreMi"
+              routerLinkActive="active"
+              class="navbar-button-toggle--a hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              >Sobre Mi</a
+            >
           </div>
+        </div>
       </div>
+      <div class="flex flex-1 items-center sm:items-stretch">
+        <div class="flex flex-shrink-0 items-center">
+          <div class="navbar-container-icon-list">
+            <a routerLink="/" routerLinkActive="active">
+              <img
+                class="navbar-container-icon-list-img--mobile"
+                src="../../../../assets/Logo-icon.png"
+                alt="Logo Icono"
+              />
+              <img
+                class="navbar-container-icon-list-img--desktop"
+                src="../../../../assets/Logo-icon.png"
+                alt="Logo Icono"
+              />
+            </a>
+          </div>
+        </div>
       </div>
 
-<div class="navbar-content-div--container flex items-center justify-center gap-16 mr-8">
-  <div class="hidden sm:ml-6 sm:block">
-    <div class="navbar-content-div--list-desktop flex space-x-1">
-      <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-<div class="hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium items-center flex gap-1">
-<i class="navbar-content-div--icon fa-solid fa-brain"></i>
-<a routerLink="skills" routerLinkActive="active" class="navbar-content-div--a-desktop">Skill</a>
-</div>
+      <div
+        class="navbar-content-div--container flex items-center justify-around gap-16 mr-10"
+      >
+        <div class="hidden sm:ml-6 sm:block">
+          <div class="navbar-content-div--list-desktop flex space-x-1">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <div
+              class="hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium items-center flex gap-1"
+            >
+              <i class="navbar-content-div--icon fa-solid fa-brain"></i>
+              <a
+                routerLink="skills"
+                routerLinkActive="active"
+                class="navbar-content-div--a-desktop"
+                >Skill</a
+              >
+            </div>
 
-<div class="hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium items-center flex gap-1">
-<i class="navbar-content-div--icon fa-solid fa-diagram-project"></i>
-<a routerLink="proyecto" routerLinkActive="active" class="navbar-content-div--a-desktop">Proyectos</a>
-</div>
-     <div class="hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium items-center flex gap-1">
-      <i class="navbar-content-div--icon fa-solid fa-graduation-cap"></i>
-      <a routerLink="cursos" routerLinkActive="active" class="navbar-content-div--a-desktop ">Cursos</a>
-     </div>
-
+            <div
+              class="hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium items-center flex gap-1"
+            >
+              <i
+                class="navbar-content-div--icon fa-solid fa-diagram-project"
+              ></i>
+              <a
+                routerLink="proyecto"
+                routerLinkActive="active"
+                class="navbar-content-div--a-desktop"
+                >Proyectos</a
+              >
+            </div>
+            <div
+              class="hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium items-center flex gap-1"
+            >
+              <i
+                class="navbar-content-div--icon fa-solid fa-graduation-cap"
+              ></i>
+              <a
+                routerLink="cursos"
+                routerLinkActive="active"
+                class="navbar-content-div--a-desktop"
+                >Cursos</a
+              >
+            </div>
+            <div
+              class="hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium items-center flex gap-1"
+            >
+              <i class="navbar-content-div--icon fa-solid fa-user"></i>
+              <a
+                routerLink="sobreMi"
+                routerLinkActive="active"
+                class="navbar-content-div--a-desktop"
+                >Sobre Mi</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="flex flex-1 items-center  sm:items-stretch sm:justify-center">
-    <div class="flex flex-shrink-0 items-center">
-      <div class="navbar-container-icon-list">
-        <a routerLink="/" routerLinkActive="active">
-        <img class="navbar-container-icon-list-img--mobile"  src="../../../../assets/Logo-icon.png" alt="Logo Icono">
-        <img class="navbar-container-icon-list-img--desktop"  src="../../../../assets/Logo-icon.png" alt="Logo Icono">
-      </a>
-      </div>
-    </div>
-    </div>
-    <div class="navbar-container-icon-redes">
-      <div class="navbar-content-div--redes-desktop flex justify-around gap-4 space-x-1">
-<div>
-<a href="https://www.linkedin.com/in/matias-sabbadini-desarrollador/" target="_blank">
-<i class="navbar-content-div-redes-icon fa-brands fa-linkedin hover:bg-gray-700  hover:text-white rounded-md px-3 py-2"></i>
-</a>
-
-</div>
-
-<div>
-<a href="https://walink.co/6dc120" target="_blank">
-<i class="navbar-content-div-redes-icon fa-brands fa-whatsapp hover:bg-gray-700  hover:text-white rounded-md px-3 py-2 "></i>
-</a>
-
-</div>
-       <div>
-         <a href="mailto:matiassabbadini24@gmail.com" target="_blank">
-          <i class="navbar-content-div-redes-icon fa-solid fa-envelope hover:bg-gray-700  hover:text-white rounded-md  px-3 py-2"></i>
-         </a>
-       </div>
-      </div>
-    </div>
-</div>
-
-
-
-
-      </div>
-      </div>
-
-
-  <!-- Mobile menu, show/hide based on menu state. -->
 
 </nav>

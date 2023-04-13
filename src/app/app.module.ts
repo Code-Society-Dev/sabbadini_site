@@ -6,6 +6,7 @@ import { SharedModule } from './shared/shared.module';
 import { AppRoutingModule } from './app-routing.module';
 import { SkillsModule } from './skilles/skills.module';
 import { CursosModule } from './cursos/cursos.module';
+import { ProyectosModule } from './proyectos/proyectos.module';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { CursosModule } from './cursos/cursos.module';
     SharedModule,
     SkillsModule,
     CursosModule,
+    ProyectosModule,
     AppRoutingModule
   ],
   providers: [],

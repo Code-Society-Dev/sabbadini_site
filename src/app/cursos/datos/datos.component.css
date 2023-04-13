@@ -1,13 +1,13 @@
-.datos-card-container{
+.cursos-datos-card-container{
   background-color: gray;
 }
 
-.datos-card-container-titulo--titulo{
+.cursos-datos-card-container-titulo--titulo{
  font-family: var(--tipografiaHeader);
  color: aliceblue;
 }
 
-.datos-card-container-titulo--descripcion{
+.cursos-datos-card-container-titulo--descripcion{
   font-family: var(--tipografiaHeader);
 color: aliceblue;
 }
