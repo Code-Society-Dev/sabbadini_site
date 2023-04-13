@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { AppRoutingModule } from './app-routing.module';
 import { SkillsModule } from './skilles/skills.module';
+import { CursosModule } from './cursos/cursos.module';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { SkillsModule } from './skilles/skills.module';
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     SharedModule,
     SkillsModule,
+    CursosModule,
     AppRoutingModule
   ],
   providers: [],

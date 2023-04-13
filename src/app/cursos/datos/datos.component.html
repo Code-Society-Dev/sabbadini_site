@@ -1,0 +1,16 @@
+
+<div class="datos-container--subcontainer py-2 px-3" *ngFor="let datos of datosdata">
+  <div class="datos-card-container max-w-sm rounded overflow-hidden shadow-lg">
+    <img class="datos-card-container--imagen w-full" [src]="datos.imagen" alt="Sunset in the mountains">
+    <div class="datos-card-container-titulo px-6 py-4">
+      <div class="font-bold text-xl mb-2">
+        <h3 class="datos-card-container-titulo--titulo">
+          {{datos.nombre}}
+        </h3>
+      </div>
+      <p class="datos-card-container-titulo--descripcion text-base">
+       {{datos.descripcion}}
+      </p>
+    </div>
+  </div>
+</div>

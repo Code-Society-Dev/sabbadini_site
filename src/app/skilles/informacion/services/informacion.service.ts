@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
-import { html } from 'src/app/shared/data/html.data';
-import { javascript } from 'src/app/shared/data/javascript.data';
-import { css } from 'src/app/shared/data/css.data';
-import { backend } from 'src/app/shared/data/backend';
-import { otros } from 'src/app/shared/data/otros.data';
+import { html } from 'src/app/shared/data/skills/html.data';
+import { javascript } from 'src/app/shared/data/skills/javascript.data';
+import { css } from 'src/app/shared/data/skills/css.data';
+import { backend } from 'src/app/shared/data/skills/backend';
+import { otros } from 'src/app/shared/data/skills/otros.data';
 
 @Injectable({
   providedIn: 'root'
