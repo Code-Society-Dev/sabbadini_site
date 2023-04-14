@@ -4,6 +4,7 @@ import { Error404Component } from './error404/error404.component';
 import { HomeComponent } from './home/home.component';
 import { SkillsComponent } from './skilles/skills.component';
 import { CursosComponent } from './cursos/cursos.component';
+import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 
 const routes: Routes = [
   {
@@ -20,6 +21,11 @@ const routes: Routes = [
   {
     path: 'cursos',
     component: CursosComponent,
+    pathMatch: 'full',
+  },
+  {
+    path: 'sobreMi',
+    component: SobreMiComponent,
     pathMatch: 'full',
   },
   {

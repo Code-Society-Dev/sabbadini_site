@@ -3,17 +3,21 @@
 }
 
 .skills-container-titulo{
-  width: 100%;
+  width: 100vw;
   height: 80px;
+  padding: 1em;
   background-color: #0080d9;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 2em;
+  box-shadow: 10px 10px 5px 0px rgba(16,154,173,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(16,154,173,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(16,154,173,0.75);
 }
 
 .skills-container-titulo--titulo{
-  font-size: 40px;
+  font-size: 65px;
   font-weight: 800;
   font-family: var(--tipografiaHeader);
 color: aliceblue;

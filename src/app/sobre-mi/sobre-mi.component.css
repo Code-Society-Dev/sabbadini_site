@@ -1,3 +1,9 @@
+.sobremi-container{
+  flex-grow: 1;
+}
+
+
+
 .sobremi-container--img{
   width: 250px;
   height: 250px;
