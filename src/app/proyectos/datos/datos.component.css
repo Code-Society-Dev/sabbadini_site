@@ -1,3 +1,11 @@
+.proyectos-datos-container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .proyectos-datos-card-container{
   background-color: gray;
 }

@@ -1,3 +1,12 @@
+.cursos-datos-container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .cursos-datos-card-container{
   background-color: gray;
 }
