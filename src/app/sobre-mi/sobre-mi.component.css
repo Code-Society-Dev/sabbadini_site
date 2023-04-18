@@ -1,6 +1,7 @@
 .sobremi-container{
   background: #07c4ff;
   margin-bottom: 2em;
+  width: 100%;
 }
 
 
@@ -24,9 +25,43 @@
 color: aliceblue;
 }
 
+.sobremi-container--subcontainer{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .sobremi-container--subcontainer--parrafo{
   font-family: var(--tipografiaHeader);
   color: aliceblue;
+  line-height: 2rem;
+  font-size: 20px;
 }
 
+
+@media (min-width: 600px){
+  .sobremi-container--subcontainer--parrafo{
+    font-size: 25px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .sobremi-container--subcontainer--parrafo{
+    font-size: 30px;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px)  {
+  .sobremi-container--subcontainer--parrafo{
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1336px)  {
+  .sobremi-container--subcontainer--parrafo{
+    font-size: 40px;
+    line-height: 3rem;
+  }
+}
