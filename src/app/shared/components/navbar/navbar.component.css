@@ -1,9 +1,8 @@
 .navbar-button-toggle-content{
-  margin-top: 216px;
-  width: 140px;
+
+  width: 220px;
   position: absolute;
-  left: -8px;
-  z-index: 2;
+z-index: 1;
 }
 
 .navbar-container-icon-list-img--desktop{
@@ -20,10 +19,22 @@
   height: 40px;
 }
 
-.navbar-button-toggle--icon{
+.navbar-button-toggle{
+  border: none !important;
+}
+
+.navbar-button-toggle--icon-bars{
   font-size: 25px;
   color: var(--colorLetrasHeader);
    cursor: pointer;
+}
+
+.navbar-button-toggle--icon-x{
+  font-size: 25px;
+  color: var(--colorLetrasHeader);
+   cursor: pointer;
+   margin-left: 10em;
+   z-index: 1;
 }
 
 .navbar-button-toggle--a{
@@ -61,7 +72,6 @@
     font-size: 29px;
   }
 }
-
 
 @media (min-width: 768px) {
   .navbar-content-div{
