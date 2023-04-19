@@ -14,6 +14,7 @@
   position: relative;
   border-radius: .5rem 2rem;
   box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.5);
+  background-color: var(--colorBlanco);
 }
 
 .informacion-card:hover {
@@ -22,30 +23,39 @@
 
 
 .informacion-title {
-  color: aliceblue;
+  color: var(--colorBlanco);
+}
+
+
+hr {
+  background-color: var(--colorGris);
 }
 
 .informacion-container-titulo{
-  font-family: var(--tipografiaGeneral);
+  font-family: var(--tipografiaCards);
   font-weight: 800;
-  font-size: 30px;
-}
-
-.informacion-container-titulo--nombre{
-  margin-top: 0.1em;
-  font-family: var(--tipografiaGeneral);
-  font-size: 20px;
+  font-size: 50px;
+  color: var(--colorGris);
 }
 
 .informacion-container-card-nombre{
+  color: var(--colorGris);
+  font-family: var(--tipografiaCards);
+  margin-top: 0.5em;
+  font-size: 30px;
   font-weight: 700;
 }
 
 
+
 @media (min-width: 768px) {
-  
+
   .informacion-container-card-nombre{
-    font-size: 20px;
+    font-size: 40px;
+  }
+
+  .informacion-container-titulo{
+    font-size: 60px;
   }
 
   .informacion-container-card-imagen{
@@ -60,10 +70,15 @@
 
 
 @media (min-width: 1024px) {
-  
+
   .informacion-container-card-nombre{
-    font-size: 23px;
+    font-size: 50px;
   }
+
+  .informacion-container-titulo{
+    font-size: 70px;
+  }
+
 
   .informacion-container-card-imagen{
     width: 120px !important;
@@ -77,9 +92,13 @@
 
 
 @media (min-width: 1440px) {
-  
+
   .informacion-container-card-nombre{
-    font-size: 25px;
+    font-size: 60px;
+  }
+
+  .informacion-container-titulo{
+    font-size: 80px;
   }
 
   .informacion-container-card-imagen{

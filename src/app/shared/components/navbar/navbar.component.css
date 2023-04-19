@@ -1,5 +1,8 @@
-.navbar-button-toggle-content{
+.nabvar-container{
+  background-color: var(--colorAzulNegro);
+}
 
+.navbar-button-toggle-content{
   width: 220px;
   position: absolute;
 z-index: 1;
@@ -25,13 +28,13 @@ z-index: 1;
 
 .navbar-button-toggle--icon-bars{
   font-size: 25px;
-  color: var(--colorLetrasHeader);
+  color: var(--colorBlanco);
    cursor: pointer;
 }
 
 .navbar-button-toggle--icon-x{
   font-size: 25px;
-  color: var(--colorLetrasHeader);
+  color: var(--colorBlanco);
    cursor: pointer;
    margin-left: 10em;
    z-index: 1;
@@ -39,7 +42,7 @@ z-index: 1;
 
 .navbar-button-toggle--a{
   font-size: 23px !important;
-  color: var(--colorLetrasHeader);
+  color: var(--colorBlanco);
   font-family: var(--tipografiaHeader);
    cursor: pointer;
 }
@@ -101,13 +104,13 @@ z-index: 1;
 
 
   .navbar-content-div--a-desktop{
-color: var(--colorLetrasHeader);
+color: var(--colorBlanco);
 font-size: 13px !important;
 font-family: var(--tipografiaHeader);
   }
 
   .navbar-content-div--icon{
-    color: var(--colorLetrasHeader);
+    color: var(--colorBlanco);
     font-size: 13px;
   }
 
@@ -115,7 +118,7 @@ font-family: var(--tipografiaHeader);
 
   .navbar-container-icon-redes{
     display: flex;
-    color: var(--colorLetrasHeader);
+    color: var(--colorBlanco);
     font-size: 13px;
   }
 

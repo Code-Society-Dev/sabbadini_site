@@ -2,14 +2,15 @@
     left: 0;
     bottom: 0;
     width: 100%;
+    background-color: var(--colorAzulNegro);
 }
 
 
 .footer-contenedor--div-span{
-  color: var(--colorLetrasHeader);
+  color: var(--colorBlanco);
   font-family: var(--tipografiaHeader);
 }
 
 .footer-contenedor-redes-iconos{
-  color: var(--colorLetrasHeader);
+  color: var(--colorBlanco);
 }

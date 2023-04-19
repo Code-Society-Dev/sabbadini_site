@@ -8,17 +8,17 @@
             {{datos.nombre}}
           </h3>
         </div>
-        <p class="proyectos-datos-card-container-titulo--descripcion text-base">
+        <p class="proyectos-datos-card-container-titulo--descripcion mx-auto">
           Tecnologias: {{datos.descripcion}}
         </p>
       </div>
       <div class="flex justify-center gap-5 my-3">
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-          Button
-        </button>
-        <button class="bg-blue-800 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded">
-          Button
-        </button>
+        <a class="proyectos-datos-card-container-boton font-bold py-2 px-4 rounded" [href]="datos.gitHub" target="_blank">
+          Git-Hub
+        </a>
+        <a class="proyectos-datos-card-container-boton font-bold py-2 px-4 rounded" [href]="datos.deploy" target="_blank">
+     Deploy
+        </a>
       </div>
 
     </div>
