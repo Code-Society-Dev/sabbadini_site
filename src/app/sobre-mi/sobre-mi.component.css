@@ -31,7 +31,7 @@ color: var(--colorGris);
 }
 
 .sobremi-container--subcontainer--parrafo{
-  color: var(--colorGris);
+  color:var(--colorBlanco);
   font-weight: 700;
   font-family: var(--tipografiaGeneral);
   line-height: 2rem;
