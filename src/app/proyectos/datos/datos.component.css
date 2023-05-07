@@ -9,7 +9,7 @@
 
 
 .proyectos-datos-container--subcontainer{
-  height: auto;
+  height: 350px;
   width: 90%;
   transition: all .3s;
   position: relative;
@@ -23,8 +23,15 @@
   transform: scale(1.03);
 }
 
+.proyectos-datos-card-container--container-boton{
+position: absolute;
+bottom: 8%;
+left: 21%;
+}
+
 .proyectos-datos-card-container{
   background-color: var(--colorAzulNegro);
+  height: 330px;
 }
 
 .proyectos-datos-card-container-titulo--titulo{
@@ -41,15 +48,29 @@
 
 .proyectos-datos-card-container-boton{
   font-family: var(--tipografiaCards);
-  color: var(--colorGris);
+  color: var(--colorAzulNegro);
   background-color: var(--colorVerdeCeleste);
   font-size: 20px;
 }
 
 
+@media (min-width: 375px) {
+  .proyectos-datos-card-container--container-boton{
+    bottom: 8%;
+    left: 25%;
+    }
+}
+
 @media (min-width: 450px) {
+  .proyectos-datos-card-container--container-boton{
+    bottom: 8%;
+    left: 19%;
+    }
+
+
+
   .proyectos-datos-container--subcontainer {
-    width: 270px;
+    width: 300px;
   }
 
   .proyectos-datos-card-container-titulo--titulo{
@@ -66,7 +87,16 @@
 @media (min-width: 768px) {
   .proyectos-datos-container--subcontainer {
     width: 350px;
+    height: 450px;
   }
+
+  .proyectos-datos-card-container{
+    height: 430px;
+}
+
+.proyectos-datos-card-container--imagen{
+  height: 150px !important;
+}
 
   .proyectos-datos-card-container-titulo--titulo{
     font-size: 45px;
@@ -83,6 +113,15 @@
 
 
 @media (min-width: 1024px) {
+  .proyectos-datos-container--subcontainer {
+    width: 350px;
+    height: 470px;
+  }
+
+  .proyectos-datos-card-container{
+    height: 450px;
+}
+
   .proyectos-datos-container{
     gap: 4em;
       }

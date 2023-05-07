@@ -21,7 +21,7 @@
   font-size: 50px;
   font-weight: 800;
   font-family: var(--tipografiaGeneral);
-color: var(--colorGris);
+  color: var(--colorAzulNegro);
 }
 
 .sobremi-container--subcontainer{
@@ -31,7 +31,7 @@ color: var(--colorGris);
 }
 
 .sobremi-container--subcontainer--parrafo{
-  color:var(--colorBlanco);
+  color: var(--colorAzulNegro);
   font-weight: 700;
   font-family: var(--tipografiaGeneral);
   line-height: 2rem;

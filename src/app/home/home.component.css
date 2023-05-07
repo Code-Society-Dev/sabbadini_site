@@ -50,14 +50,14 @@ gap: 3em;
 
 .home-nombre{
   font-size: 30px;
-  color:var(--colorBlanco);
+  color: var(--colorAzulNegro);
     font-family: var(--tipografiaGeneral);
     font-weight: 700;
       }
 
       .home-descripcion{
   font-size: 30px;
-  color:var(--colorBlanco);
+  color: var(--colorAzulNegro);
     font-family: var(--tipografiaGeneral);
     font-weight: 700;
       }

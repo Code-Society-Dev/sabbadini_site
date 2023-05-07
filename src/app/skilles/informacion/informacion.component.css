@@ -14,7 +14,7 @@
   position: relative;
   border-radius: .5rem 2rem;
   box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.5);
-  background-color: var(--colorBlanco);
+  background-color: white;
 }
 
 .informacion-card:hover {
@@ -28,18 +28,18 @@
 
 
 hr {
-  background-color: var(--colorGris);
+  background-color: var(--colorAzulNegro);
 }
 
 .informacion-container-titulo{
   font-family: var(--tipografiaCards);
   font-weight: 800;
   font-size: 50px;
-  color: var(--colorGris);
+  color: var(--colorAzulNegro);
 }
 
 .informacion-container-card-nombre{
-  color: var(--colorGris);
+  color: var(--colorAzulNegro);
   font-family: var(--tipografiaCards);
   margin-top: 0.5em;
   font-size: 30px;
