@@ -13,4 +13,7 @@ export class DatosComponent {
   get proyectosdata(){
     return this.proyectosService.dataproyectos
   }
+
+  
+
 }
