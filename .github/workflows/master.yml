@@ -44,6 +44,6 @@ jobs:
             server: ${{ secrets.SERVER_SABBA_DEPLOY }}
             username: ${{ secrets.USER_SABBA_DEPLOY }}
             password: ${{ secrets.PWD_SABBA_DEPLOY }}
-            local-dir: ./dist/dist/portafolio-angular/browser/
+            local-dir: ./dist/portafolio-angular/browser/
             server-dir: /
             port: 21
