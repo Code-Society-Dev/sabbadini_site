@@ -88,9 +88,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 3em;
-    width: 200px;
-    height: 150px;
+    width: 190px;
+    height: 135px;
   }
 
   .navbar-content-div--a-desktop {
@@ -112,11 +111,11 @@
 }
 
 @media (min-width: 1024px) {
-  .navbar-container-icon-list-img--desktop {
-   /*  right: 15%; */
-    width: 210px;
+/*   .navbar-container-icon-list-img--desktop {
+     right: 15%;
+     width: 210px;
     height:170px;
-  }
+  } */
 
   .navbar-content-div--container {
     gap: 8rem !important;
@@ -136,11 +135,11 @@
 }
 
 @media (min-width: 1336px) {
-  .navbar-container-icon-list-img--desktop {
-    /* right: 25%; */
-    width:220%;
+/*   .navbar-container-icon-list-img--desktop {
+     right: 25%;
+     width:220%;
     height: 180px;
-  }
+  } */
 
   .navbar-content-div--container {
     gap: 20rem !important;
