@@ -1,5 +1,5 @@
 /* From uiverse.io by @FrM-bot */
-.informacion-container-card{
+.informacion-container-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,9 +10,9 @@
 .informacion-card {
   width: 80vw;
   height: min-content;
-  transition: all .3s;
+  transition: all 0.3s;
   position: relative;
-  border-radius: .5rem 2rem;
+  border-radius: 0.5rem 2rem;
   box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.5);
   background-color: white;
 }
@@ -21,24 +21,22 @@
   transform: scale(1.03);
 }
 
-
 .informacion-title {
   color: var(--colorBlanco);
 }
-
 
 hr {
   background-color: var(--colorAzulNegro);
 }
 
-.informacion-container-titulo{
+.informacion-container-titulo {
   font-family: var(--tipografiaCards);
   font-weight: 800;
   font-size: 50px;
   color: var(--colorAzulNegro);
 }
 
-.informacion-container-card-nombre{
+.informacion-container-card-nombre {
   color: var(--colorAzulNegro);
   font-family: var(--tipografiaCards);
   margin-top: 0.5em;
@@ -47,73 +45,67 @@ hr {
 }
 
 .informacion-card-subcontainer--img-nombre:hover {
-  -webkit-transform:scale(1.1);
-  -moz-transform:scale(1.1);
-  -ms-transform:scale(1.1);
-  -o-transform:scale(1.1);
-  transform:scale(1.1);
-  transition: all .2s;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.2s;
 }
 
 @media (min-width: 768px) {
-
-  .informacion-container-card-nombre{
+  .informacion-container-card-nombre {
     font-size: 40px;
   }
 
-  .informacion-container-titulo{
+  .informacion-container-titulo {
     font-size: 60px;
   }
 
-  .informacion-container-card-imagen{
+  .informacion-container-card-imagen {
     width: 100px !important;
     height: 100px !important;
   }
 
-.informacion-card-container--img-nombre{
-  gap: 2em !important;
+  .informacion-card-container--img-nombre {
+    gap: 2em !important;
+  }
 }
-}
-
 
 @media (min-width: 1024px) {
-
-  .informacion-container-card-nombre{
+  .informacion-container-card-nombre {
     font-size: 50px;
   }
 
-  .informacion-container-titulo{
+  .informacion-container-titulo {
     font-size: 70px;
   }
 
-
-  .informacion-container-card-imagen{
+  .informacion-container-card-imagen {
     width: 120px !important;
     height: 120px !important;
   }
 
-.informacion-card-container--img-nombre{
-  gap: 4em !important;
+  .informacion-card-container--img-nombre {
+    gap: 4em !important;
+  }
 }
-}
-
 
 @media (min-width: 1440px) {
-
-  .informacion-container-card-nombre{
+  .informacion-container-card-nombre {
     font-size: 60px;
   }
 
-  .informacion-container-titulo{
+  .informacion-container-titulo {
     font-size: 80px;
   }
 
-  .informacion-container-card-imagen{
+  .informacion-container-card-imagen {
     width: 150px !important;
     height: 150px !important;
   }
 
-.informacion-card-container--img-nombre{
-  gap: 9em !important;
-}
+  .informacion-card-container--img-nombre {
+    gap: 9em !important;
+  }
 }

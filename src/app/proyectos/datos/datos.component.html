@@ -1,29 +1,44 @@
 <div class="proyectos-datos-container">
-  <div class="proyectos-datos-container--subcontainer py-2 px-3" *ngFor="let datos of proyectosdata">
-    <div class="proyectos-datos-card-container max-w-sm rounded overflow-hidden shadow-lg">
-      <img class="proyectos-datos-card-container--imagen w-full" 
-      
-      [src]="datos.imagen" alt="Sunset in the mountains">
+  <div
+    class="proyectos-datos-container--subcontainer py-2 px-3"
+    *ngFor="let datos of proyectosdata"
+  >
+    <div
+      class="proyectos-datos-card-container max-w-sm rounded overflow-hidden shadow-lg"
+    >
+      <img
+        class="proyectos-datos-card-container--imagen w-full"
+        [src]="datos.imagen"
+        alt="Sunset in the mountains"
+      />
       <div class="proyectos-datos-card-container-titulo px-6 py-4">
         <div class="font-bold text-xl mb-2">
           <h3 class="proyectos-datos-card-container-titulo--titulo">
-            {{datos.nombre}}
+            {{ datos.nombre }}
           </h3>
         </div>
         <p class="proyectos-datos-card-container-titulo--descripcion mx-auto">
-          Tecnologias: {{datos.descripcion}}
+          Tecnologias: {{ datos.descripcion }}
         </p>
       </div>
-      <div class="proyectos-datos-card-container--container-boton flex justify-center gap-5 mt-3">
-        <a class="proyectos-datos-card-container-boton font-bold py-2 px-4 rounded" [href]="datos.gitHub" target="_blank">
+      <div
+        class="proyectos-datos-card-container--container-boton flex justify-center gap-5 mt-3"
+      >
+        <a
+          class="proyectos-datos-card-container-boton font-bold py-2 px-4 rounded"
+          [href]="datos.gitHub"
+          target="_blank"
+        >
           Git-Hub
         </a>
-        <a class="proyectos-datos-card-container-boton font-bold py-2 px-4 rounded" [href]="datos.deploy" target="_blank">
-     Deploy
+        <a
+          class="proyectos-datos-card-container-boton font-bold py-2 px-4 rounded"
+          [href]="datos.deploy"
+          target="_blank"
+        >
+          Deploy
         </a>
       </div>
-
     </div>
   </div>
 </div>
-

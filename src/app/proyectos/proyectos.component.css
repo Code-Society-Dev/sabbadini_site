@@ -1,8 +1,8 @@
-.proyectos-container{
+.proyectos-container {
   margin-bottom: 2em;
 }
 
-.proyectos-container-titulo{
+.proyectos-container-titulo {
   width: 100%;
   height: 80px;
   background-color: var(--colorVerdeCeleste);
@@ -10,15 +10,14 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 2em;
-  box-shadow: 10px 10px 5px 0px rgba(16,154,173,0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(16,154,173,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(16,154,173,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(16, 154, 173, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(16, 154, 173, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(16, 154, 173, 0.75);
 }
 
-.proyectos-container-titulo--titulo{
+.proyectos-container-titulo--titulo {
   font-size: 50px;
   font-weight: 800;
   font-family: var(--tipografiaGeneral);
   color: var(--colorAzulNegro);
 }
-

@@ -6,20 +6,9 @@ import { DatosComponent } from './datos/datos.component';
 import { ProyectosComponent } from './proyectos.component';
 import { SharedModule } from '../shared/shared.module';
 
-
 @NgModule({
-  declarations: [
-    DatosComponent,
-    ProyectosComponent
-  ],
-  imports: [
-    CommonModule,
-    SharedModule,
-    ProyectosRoutingModule
-  ],
-  exports: [
-    DatosComponent,
-    ProyectosComponent
-  ]
+  declarations: [DatosComponent, ProyectosComponent],
+  imports: [CommonModule, SharedModule, ProyectosRoutingModule],
+  exports: [DatosComponent, ProyectosComponent],
 })
-export class ProyectosModule { }
+export class ProyectosModule {}

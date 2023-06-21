@@ -1,16 +1,14 @@
 import { Injectable } from '@angular/core';
 import { proyectos } from 'src/app/shared/data/proyectos/proyectos.data';
 
-
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class DatosService {
+  constructor() {}
 
-  constructor() { }
-
-  private _proyectos = proyectos
-  get dataproyectos(){
-    return this._proyectos
+  private _proyectos = proyectos;
+  get dataproyectos() {
+    return this._proyectos;
   }
 }

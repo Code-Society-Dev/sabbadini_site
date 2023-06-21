@@ -2,14 +2,13 @@ import { Injectable } from '@angular/core';
 import { datos } from 'src/app/shared/data/cursos/cursos.data';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class DatosService {
+  private _datos = datos;
 
-  private _datos = datos
-
-  get datadatos(){
-    return this._datos
+  get datadatos() {
+    return this._datos;
   }
-  constructor() { }
+  constructor() {}
 }

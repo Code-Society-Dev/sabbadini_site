@@ -1,19 +1,19 @@
-.nabvar-container{
+.nabvar-container {
   background-color: var(--colorAzulNegro);
 }
 
-.navbar-button-toggle-content{
+.navbar-button-toggle-content {
   width: 220px;
   position: absolute;
-z-index: 1;
+  z-index: 1;
 }
 
-.navbar-container-icon-list-img--desktop{
+.navbar-container-icon-list-img--desktop {
   display: none;
   cursor: pointer;
 }
 
-.navbar-container-icon-list-img--mobile{
+.navbar-container-icon-list-img--mobile {
   display: block;
   position: absolute;
   left: 35%;
@@ -22,77 +22,73 @@ z-index: 1;
   height: 40px;
 }
 
-.navbar-button-toggle{
+.navbar-button-toggle {
   border: none !important;
 }
 
-.navbar-button-toggle--icon-bars{
+.navbar-button-toggle--icon-bars {
   font-size: 25px;
   color: var(--colorBlanco);
-   cursor: pointer;
+  cursor: pointer;
 }
 
-.navbar-button-toggle--icon-x{
+.navbar-button-toggle--icon-x {
   font-size: 25px;
   color: var(--colorBlanco);
-   cursor: pointer;
-   margin-left: 10em;
-   z-index: 1;
+  cursor: pointer;
+  margin-left: 10em;
+  z-index: 1;
 }
 
-.navbar-button-toggle--a{
+.navbar-button-toggle--a {
   font-size: 23px !important;
   color: var(--colorBlanco);
   font-family: var(--tipografiaHeader);
-   cursor: pointer;
+  cursor: pointer;
 }
 
-.navbar-container-icon-redes{
+.navbar-container-icon-redes {
   display: none;
 }
 
-
 @media (min-width: 375px) {
-  .navbar-container-icon-list-img--mobile{
+  .navbar-container-icon-list-img--mobile {
     left: 36%;
     width: 105px;
     height: 45px;
   }
 
-  .navbar-button-toggle--icon{
+  .navbar-button-toggle--icon {
     font-size: 27px;
   }
 }
 
 @media (min-width: 425px) {
-  .navbar-container-icon-list-img--mobile{
+  .navbar-container-icon-list-img--mobile {
     left: 37%;
     width: 110px;
     height: 50px;
   }
 
-  .navbar-button-toggle--icon{
+  .navbar-button-toggle--icon {
     font-size: 29px;
   }
 }
 
 @media (min-width: 768px) {
-  .navbar-content-div{
+  .navbar-content-div {
     display: flex !important;
   }
 
-
-  .navbar-container-icon-list{
+  .navbar-container-icon-list {
     align-items: center !important;
   }
 
+  .navbar-container-icon-list-img--mobile {
+    display: none;
+  }
 
-
-.navbar-container-icon-list-img--mobile{
-  display: none;
-}
-
-  .navbar-container-icon-list-img--desktop{
+  .navbar-container-icon-list-img--desktop {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -101,80 +97,72 @@ z-index: 1;
     height: 50px;
   }
 
-
-
-  .navbar-content-div--a-desktop{
-color: var(--colorBlanco);
-font-size: 13px !important;
-font-family: var(--tipografiaHeader);
+  .navbar-content-div--a-desktop {
+    color: var(--colorBlanco);
+    font-size: 13px !important;
+    font-family: var(--tipografiaHeader);
   }
 
-  .navbar-content-div--icon{
+  .navbar-content-div--icon {
     color: var(--colorBlanco);
     font-size: 13px;
   }
 
-
-
-  .navbar-container-icon-redes{
+  .navbar-container-icon-redes {
     display: flex;
     color: var(--colorBlanco);
     font-size: 13px;
   }
-
-
 }
 
-
 @media (min-width: 1024px) {
-  .navbar-container-icon-list-img--desktop{
+  .navbar-container-icon-list-img--desktop {
     right: 15%;
     width: 170px;
     height: 60px;
   }
 
-  .navbar-content-div--container{
+  .navbar-content-div--container {
     gap: 8rem !important;
   }
 
-  .navbar-content-div--a-desktop{
-font-size: 20px !important;
+  .navbar-content-div--a-desktop {
+    font-size: 20px !important;
   }
 
-  .navbar-content-div--icon{
+  .navbar-content-div--icon {
     font-size: 20px;
   }
 
-  .navbar-container-icon-redes{
+  .navbar-container-icon-redes {
     font-size: 20px;
   }
-
 }
 
 @media (min-width: 1336px) {
-  .navbar-container-icon-list-img--desktop{
+  .navbar-container-icon-list-img--desktop {
     right: 25%;
     width: 100%;
     height: 70px;
   }
 
-  .navbar-content-div--container{
+  .navbar-content-div--container {
     gap: 20rem !important;
   }
 
-  .navbar-content-div--a-desktop{
-font-size: 25px !important;
+  .navbar-content-div--a-desktop {
+    font-size: 25px !important;
   }
 
-  .navbar-content-div--icon{
+  .navbar-content-div--icon {
     font-size: 25px;
   }
 
-.navbar-content-div--redes-desktop{
-  gap: 1.5rem !important;
-}
+  .navbar-content-div--redes-desktop {
+    gap: 1.5rem !important;
+  }
 
-  .navbar-container-icon-redes{
+  .navbar-container-icon-redes {
     font-size: 25px;
   }
 }

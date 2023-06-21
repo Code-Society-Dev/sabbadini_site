@@ -4,13 +4,13 @@ import { ProyectosComponent } from './proyectos.component';
 
 const routes: Routes = [
   {
-    path:"proyecto",
-    component: ProyectosComponent
-  }
+    path: 'proyecto',
+    component: ProyectosComponent,
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class ProyectosRoutingModule { }
+export class ProyectosRoutingModule {}
