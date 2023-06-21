@@ -14,12 +14,12 @@
 }
 
 .navbar-container-icon-list-img--mobile {
-  display: block;
+ /*  display: block;
   position: absolute;
-  left: 35%;
-  top: 20%;
-  width: 100px;
-  height: 40px;
+  left: 27%;
+  top: -45%; */
+  width: 150px;
+  height: 130px;
 }
 
 .navbar-button-toggle {
@@ -52,23 +52,19 @@
 }
 
 @media (min-width: 375px) {
-  .navbar-container-icon-list-img--mobile {
-    left: 36%;
-    width: 105px;
-    height: 45px;
+ /*  .navbar-container-icon-list-img--mobile {
+    left: 28%;
   }
-
+ */
   .navbar-button-toggle--icon {
     font-size: 27px;
   }
 }
 
 @media (min-width: 425px) {
-  .navbar-container-icon-list-img--mobile {
-    left: 37%;
-    width: 110px;
-    height: 50px;
-  }
+ /*  .navbar-container-icon-list-img--mobile {
+    left: 30%;
+  } */
 
   .navbar-button-toggle--icon {
     font-size: 29px;
@@ -93,8 +89,8 @@
     justify-content: flex-start;
     align-items: center;
     margin-left: 3em;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 150px;
   }
 
   .navbar-content-div--a-desktop {
@@ -117,9 +113,9 @@
 
 @media (min-width: 1024px) {
   .navbar-container-icon-list-img--desktop {
-    right: 15%;
-    width: 170px;
-    height: 60px;
+   /*  right: 15%; */
+    width: 210px;
+    height:170px;
   }
 
   .navbar-content-div--container {
@@ -141,9 +137,9 @@
 
 @media (min-width: 1336px) {
   .navbar-container-icon-list-img--desktop {
-    right: 25%;
-    width: 100%;
-    height: 70px;
+    /* right: 25%; */
+    width:220%;
+    height: 180px;
   }
 
   .navbar-content-div--container {
