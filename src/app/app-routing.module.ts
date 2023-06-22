@@ -9,11 +9,11 @@ import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: '',
     pathMatch: 'full',
   },
   {
-    path: 'home',
+    path: '',
     component: HomeComponent,
     pathMatch: 'full',
   },
