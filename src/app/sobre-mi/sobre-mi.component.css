@@ -30,7 +30,7 @@
 }
 
 .sobremi-container--subcontainer--parrafo {
-  color:  #171717;
+  color:  var(--colorBlanco);
   font-weight: 700;
   font-family: var(--tipografiaHeader);
   line-height: 2rem;

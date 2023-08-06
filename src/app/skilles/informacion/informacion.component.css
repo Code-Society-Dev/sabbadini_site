@@ -11,7 +11,7 @@
   width: 80vw;
   height: min-content;
   position: relative;
-  background: #171717;
+  background: var(--colorAzulNegro);
   transition: 1s ease-in-out;
   clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
   border-top-right-radius: 20px;
